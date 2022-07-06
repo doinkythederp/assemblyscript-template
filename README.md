@@ -4,37 +4,37 @@ This project was bootstrapped with [doinkythederp/assemblyscript-template](https
 
 ## Project layout
 
-```js
+```sh
 .
-│   // AssemblyScript config file
+│   # AssemblyScript config file
 ├── asconfig.json
-│   // build output directory
+│   # build output directory
 ├── build/
-│   // Jest Test Runner config file
+│   # Jest Test Runner config file
 ├── jest.config.cjs
-│   // Node.js package manifest and package manager lockfile
+│   # Node.js package manifest and package manager lockfile
 ├── package.json
 ├── pnpm-lock.yaml
-│   // Source code for build and test scripts
+│   # Source code for build and test scripts
 ├── scripts/
-│   // Your project's source code
+│   # Your project's source code
 ├── src
-│   │   // Type declarations to make TypeScript
-│   │   // play well with AssemblyScript
+│   │   # Type declarations to make TypeScript
+│   │   # play well with AssemblyScript
 │   ├── env.d.ts
-│   │   // Your project's entry point
+│   │   # Your project's entry point
 │   └── index.ts
-│   // Jest unit tests
+│   # Jest unit tests
 ├── tests
-│   │   // Jest runs files that end in ".test.ts"
+│   │   # Jest runs files that end in ".test.ts"
 │   ├── *.test.ts
-│   │   // TypeScript config to make type-checked
-│   │   // unit tests possible
+│   │   # TypeScript config to make type-checked
+│   │   # unit tests possible
 │   └── tsconfig.json
-│   // TypeScript config for in-editor errors
-│   // and code completion
+│   # TypeScript config for in-editor errors
+│   # and code completion
 ├── tsconfig.json
-│   // Prettier Code Formatter config file
+│   # Prettier Code Formatter config file
 └── .prettierrc.json
 ```
 
