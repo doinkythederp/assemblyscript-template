@@ -4,7 +4,7 @@ This project was bootstrapped with [doinkythederp/assemblyscript-template](https
 
 ## Project layout
 
-```text
+```js
 .
 │   // AssemblyScript config file
 ├── asconfig.json
